@@ -1,0 +1,323 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+    <head>
+
+        <title>{Title}</title>
+
+    <meta name="font:fejlec betutipusa" content="Futura"/>
+    <meta name="text:fejlec merete" content="30"/>
+    <meta name="color:cim szine" content="#202020"/>
+    <meta name="color:fejlec alatti sor szine" content="#202020"/>
+    <meta name="text:fejlec alatti sor merete" content="20"/>
+    <meta name="image:Header" content=""/>
+    <meta name="image:nyito" content=""/>
+    <meta name="font:mmszk betutipusa" content="Futura"/>
+    <meta name="font:szoveg betutipusa" content="Futura"/>
+    <meta name="color:szoveg szine" content="#551E92"/>
+    <meta name="text:post cim merete" content="20"/>
+    <meta name="text:szoveg merete" content="15"/>
+    <meta name="color:masik szin" content="#FF0000"/>
+    <meta name="color:elvalaszto szin" content="#FF0000"/>
+    <meta name="if:tagmenu" content="1"/>
+    <meta name="if:elvalaszto" content="1"/>
+    <meta name="color:link1" content="#FF5733"/>
+    <meta name="color:link2" content="#FF5733"/>
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+    {block:Description}
+    <meta name="description" content="{MetaDescription}" />
+    {/block:Description}
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37405249-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+        <style type="text/css">
+        a:link {color: {color:link1}; text-decoration: none;}
+        a:visited {color: {color:link1}; text-decoration: none;}
+        a:hover {color: {color:link2}; text-decoration: underline;}
+        a:active {color: {color:link1}; text-decoration: none;}
+        #title1index a:link {color: {color:cim szine}; text-decoration: none;}
+        #title1index a:visited {color: {color:cim szine}; text-decoration: none;}
+        #title1index a:hover {color: {color:cim szine}; text-decoration: none;}
+        #title1index a:active {color: {color:cim szine}; text-decoration: none;}
+        img {
+        border:0;
+        max-width: 100%;
+        max-width: 770px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        }
+        ul {
+        list-style-type:none;
+        padding:0px;
+        margin:0px;
+        }
+        li {
+        display:inline;
+        padding-right:0px;
+        }
+        #content {
+        width: 770px;
+        margin-left: auto;
+    	margin-right: auto;
+    	margin-top: 70px;
+        margin-bottom: 0;
+        padding: 0;
+        border: 0;
+    	}
+        #titleindex {
+        width: 770px;
+		letter-spacing: 0px;
+        line-height: 0px;
+		margin: 0;
+		position: relative;
+        padding: 0;
+        border: 0;
+        font: {text:fejlec merete}px {font:fejlec betutipusa};
+        color: {color:cim szine};
+		}
+        #title1index {
+        width: 770px;
+    	letter-spacing: 0px;
+        line-height: 0px;
+		margin: 0;
+		position: relative;
+        padding: 0;
+        border: 0;
+        font: 25px {font:mmszk betutipusa};
+        color: {color:cim szine};
+		}
+        #titleimg {
+        margin: 0;
+		position: relative;
+        padding: 0;
+        border: 0;
+		}
+        #description {
+    	margin-left: 0;
+    	margin-right: 0;
+    	margin-top: 10px;
+        margin-bottom: 100px;
+       <--! text-transform: uppercase;>
+        padding: 0;
+        border: 0;
+		position: relative;
+        font: {text:fejlec alatti sor merete}px {font:fejlec betutipusa};
+        color: {color:fejlec alatti sor szine};
+		}
+        #felvetelititle {
+        text-align: center;
+        font-size:24px;
+        letter-spacing: 2px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        }
+        #size {
+        font-size:20px;
+        }
+        #color {
+        color: {color:masik szin};
+        }
+        #post {
+        width: 770px;
+        margin-left: 0;
+    	margin-right: 0;
+    	margin-top: 0;
+        margin-bottom: 50px;
+        padding: 0;
+		position: relative;
+        color: {color:szoveg szine};
+    	}
+        #postp {
+        margin-left: 0;
+        margin-right: 0;
+    	margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+        {block:Ifelvalaszto}
+        border-bottom: dotted;
+        border-color: {color:elvalaszto szin};
+        {/block:Ifelvalaszto}
+        font: {text:szoveg merete}px {font:szoveg betutipusa};
+        }
+        #postt {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+        text-align:justify;
+        {block:Ifelvalaszto}
+        border-bottom: dotted;
+        border-color: {color:elvalaszto szin};
+        {/block:Ifelvalaszto}
+        font: {text:szoveg merete}px {font:szoveg betutipusa};
+        }
+        h3 {
+        font-size: {text:post cim merete}px;
+        }
+        #postl {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+        text-align:justify;
+        {block:Ifelvalaszto}
+        border-bottom: dotted;
+        border-color: {color:elvalaszto szin};
+        {/block:Ifelvalaszto}
+        font: {text:szoveg merete}px {font:szoveg betutipusa};
+        }
+        #dotted {
+        border-top: dashed {color:cim szine} 3px;
+        border-left: dashed {color:cim szine} 3px;
+        border-right: dashed {color:cim szine} 3px;
+        border-bottom: dashed {color:cim szine} 3px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 25px;
+        letter-spacing: 2px;
+        text-align: center;
+        }
+     #nyito {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 20px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 20px;
+        text-align:justify;
+        font: {text:szoveg merete}px {font:szoveg betutipusa};
+        <!--{block:Ifelvalaszto}
+        border-bottom: dotted;
+        border-color: {color:elvalaszto szin};
+        {/block:Ifelvalaszto}-->
+        }
+        h3 {
+        font-size: {text:post cim merete}px;
+        }
+        #list li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
+
+	{CustomCSS}
+        </style>
+
+
+
+    </head>
+    <body>
+     <div id="content">
+
+
+             {block:IfHeaderImage}<div id="titleimg"><img src="{image:Header}"/></div>{/block:IfHeaderImage}
+             <div id="title1index"><big><b><a href="http://annatudos.tumblr.com">Anna Tudos</a></b></big></div>
+           <div id="titleindex">Tüdős Anna</div>
+
+            <div id="description">
+            <ul id="list">
+<!--<li><a href="http://mmszk.hu/tagged/Felvételi(!)" title="1 post">Felvételi(!)</a></li>-->
+<li><a href="http://annatudos.tumblr.com/tagged/curatorial" title="curatorial">curatorial</a></li>
+<li><a href="http://annatudos.tumblr.com/tagged/graphic" title="graphic">graphic</a></li>
+<li><a href="http://annatudos.tumblr.com/tagged/recycled" title="recycled">recycled</a></li>
+
+<li><a href="http://annatudos.tumblr.com/tagged/contact" title="contact">contact</a></li>
+<li><a href="http://annatudos.tumblr.com/tagged/cv" title="cv">cv</a></li>
+
+</ul>
+</ul>
+
+
+<!-- {block:Iftagmenu}
+<script type="text/javascript" src="http://rive.rs/javascripts/tumblr.min.js?minsize=100&maxsize=100&css=default&order=alphabetical&math=linear"></script>{/block:Iftagmenu}-->{block:Description}{Description}{/block:Description}</div>
+
+
+
+        <ol id="post">
+        <div id="nyito"></div>
+            {block:TagPage}
+            {block:Posts}
+                {block:Text}
+                  <div id=postt>
+                        {block:Title}
+                            <h3 id="color"><big><b>{Title}</b></big></h3>
+                        {/block:Title}
+
+                        {Body}
+                  </div>
+                {/block:Text}
+
+
+                {block:Link}
+                  <div id=postl>
+                        <h3><a href="{URL}" class="link" target="_blank" {Target}><big><b>{Name}</b></big></a></h3>
+
+                        {block:Description}
+                            <div class="description">{Description}</div>
+                        {/block:Description}
+                  </div>
+                {/block:Link}
+
+    			{block:Photo}
+                  <div id=postp>
+					{LinkOpenTag}<img src="{PhotoURL-HighRes}"
+
+alt="{PhotoAlt}">{LinkCloseTag}
+
+
+<p>{block:Caption}{Caption}{/block:Caption}</p>
+                  </div>
+				{/block:Photo}
+
+                {block:Video}
+                    <li class="post video">
+                        {Video-500}
+
+                        {block:Caption}
+                            <div class="caption">{Caption}</div>
+                        {/block:Caption}
+                    </li>
+                {/block:Video}
+            {/block:Posts}
+            {/block:TagPage}
+        </ol>
+
+
+      </div>
+
+<script>
+        var bg = document.getElementById("nyito");
+if(document.URL == "http://annatudos.tumblr.com"){
+	nyito.innerHTML = "{block:IfnyitoImage}<img src='{image:nyito}'/>{/block:IfnyitoImage}<!--<img src='https://33.media.tumblr.com/cb468f36d0d70952ccf9e9da76a3ce61/tumblr_nf0y21NJfo1s0rij2o1_r1_1280.jpg'>--><!--<span id='dotted'><big>KÖZGYŰLÉS</big></span><br />-->";
+	console.log(document.URL+'= URL');
+}
+</script>
+
+    </body>
+</html>
